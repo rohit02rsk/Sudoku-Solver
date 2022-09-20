@@ -1,0 +1,86 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+h1 {
+    font-size: 470%;
+    margin: 2% auto;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#container {
+    text-align: center
+}
+
+table {
+    border-color: rgba(128, 128, 128, 0.499);
+    border-collapse: collapse;
+    font-size: 2em;
+    margin: 0 auto;
+    border: none;
+}
+
+colgroup,
+tbody {
+    border: solid medium rgba(128, 128, 128, 0.499);
+    border-radius: 5%;
+}
+
+td {
+    border: solid thin rgba(128, 128, 128, 0.499);
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+    padding: 0;
+}
+
+button {
+    margin: 1%;
+    background: none;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+}
+
+#solve-button:hover {
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em green;
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+#clear-button:hover {
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+    transform: translateY(-0.2em);
+    cursor: pointer;
+}
+
+padd {
+    padding-bottom: 100px;
+}
+
+#mainNavbar {
+    background-color: #ff006e;
+}
+
+#container {
+    margin-top: 80px;
+}
+
+#sudokuBoard {
+    background-color: black;
+    filter: opacity(0.2);
+}
+
+#bgimg {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    filter: blur(0.18rem);
+    max-height: 500px;
+}
